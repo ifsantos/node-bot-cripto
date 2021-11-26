@@ -1,2 +1,7 @@
 # node-bot-cripto
-Lab on Consuming Binance Exchange Data Sockets to automate alerts
+Lab on consuming Binance Exchange API / WebSockets and Telegram API to automate price alerts
+
+NodeJS dependencies:
+- ws
+- axios
+- telegraf
