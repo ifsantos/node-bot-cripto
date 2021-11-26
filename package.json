@@ -1,0 +1,28 @@
+{
+  "name": "bot-cripto",
+  "version": "1.0.0",
+  "description": "Robot for monitoring and run operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifsantos/node-bot-cripto.git"
+  },
+  "keywords": [
+    "node",
+    "bot",
+    "cripto",
+    "binance"
+  ],
+  "author": "Ismael Fofonka dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifsantos/node-bot-cripto/issues"
+  },
+  "homepage": "https://github.com/ifsantos/node-bot-cripto#readme",
+  "dependencies": {
+    "ws": "^8.3.0"
+  }
+}
