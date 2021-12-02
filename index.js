@@ -31,6 +31,8 @@ function readUserData(){
     console.log(closes)
 
     const WebSocket = require('ws');
+    // launchpad
+    //const ws = new WebSocket('wss://stream.binance.com:9443/ws/!bookTicker'); // to get all tickers booked on time
     const ws = new WebSocket('wss://stream.binance.com:9443/ws/ethbusd@kline_1m');
     
     const { Telegraf } = require ('telegraf')
