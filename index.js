@@ -33,6 +33,11 @@ function readUserData(){
     const WebSocket = require('ws');
     // launchpad
     //const ws = new WebSocket('wss://stream.binance.com:9443/ws/!bookTicker'); // to get all tickers booked on time
+    
+    // COINBASE 
+    //const ws = new WebSocket('wss://ws-feed.exchange.coinbase.com'); //To begin receiving feed messages, you must first send a subscribe message to the server indicating which channels and products to receive. 
+    
+    // BINANCE
     const ws = new WebSocket('wss://stream.binance.com:9443/ws/ethbusd@kline_1m');
     
     const { Telegraf } = require ('telegraf')
